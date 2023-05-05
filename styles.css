@@ -1,0 +1,135 @@
+.navbar {
+    background-color:#fff;
+}
+.navbar-nav a {
+    font-size: 1.1rem;
+}
+.navbar-nav a:hover {
+    color: #000;
+}
+.navbottom {
+    /* padding-top: 5rem; */
+    padding-block: 10rem;
+    background-image: linear-gradient(to bottom,#212529 60%, #fff );
+}
+#intro-title {
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+#intro {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.intro-img {
+    height: 25rem;
+    width: 40rem;  
+}
+.brandname {
+    color: #ee3768;
+}
+.button {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #ee3768;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-width: 0rem;
+    margin-top: 1rem;
+}
+.button:hover {
+    background-color: #212529;
+}
+.headertitle {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.headertitle::before {
+    content: "";
+    height: 0.5rem;
+    width: 30rem;
+    background: rgb(27, 162, 153);
+    display: block;
+    margin-inline: auto;
+    transform: translateY(7rem);
+}
+
+.headerproduct {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.headerproduct::before {
+    content: "";
+    height: 0.5rem;
+    width: 30rem;
+    background:#ee3768;
+    display: block;
+    margin-inline: auto;
+    transform: translateY(7rem);
+}
+.features {
+
+    padding-bottom: 10rem;
+}
+.products {
+    padding-bottom: 5rem;
+}
+.cards {
+    height: 25rem;
+    width: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 2rem;
+}
+.survey-img {
+    height:100%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.feature-description {
+    height: 25rem;
+    width: 20rem;
+    position: relative;
+    background-color: rgba(27, 162, 153, 0.702);
+    bottom: 4.5rem;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    transition: 1s;
+}
+.product-description {
+    height: 25rem;
+    width: 20rem;
+    position: relative;
+    background-color: rgba(237, 53, 102, 0.8);
+    bottom: 4.5rem;
+    padding-top: 1rem;
+    padding-inline: 1rem;
+    transition: 1s;
+}
+.featuretitle {
+    align-self: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.info {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    visibility: hidden;
+    color: #fff;
+}
+.cards:hover .feature-description{
+    bottom: 25rem;
+}
+.cards:hover .product-description{
+    bottom: 25rem;
+}
+.cards:hover .info {
+    visibility: visible;
+}
+.footer {
+    padding-block: 3rem;
+    background-color: #212529;
+    color: #fff;
+}
