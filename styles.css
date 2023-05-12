@@ -76,7 +76,7 @@
 .feature-description {
     height: 25rem;
     position: relative;
-    background-color: rgba(27, 162, 153, 0.702);
+    background-color: #1ba299b3;
     bottom: 4rem;
     transition: 1s;
 }
@@ -119,8 +119,20 @@
     padding-top: 10rem;
 }
 
+#contact-card-img {
+    height: 20rem;
+}
+
+#privacypolicy-card-img {
+    height: 15rem;
+}
+.contact-card-overlay {
+    /* background-image: linear-gradient(to bottom, #2125294f 50%, #ffffff5d); */
+    background-color: #0000006f;
+}
 #card_img {
     height: 16rem;
+    
 }
 
 .form {
@@ -144,6 +156,14 @@
     background-color: #ee3768;
     position: relative;
     bottom: 1.5rem;
+}
+#headoffice {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+#branchoffice {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .signup-btn {
@@ -198,4 +218,14 @@
     .connectworker-title {
         font-size: 3rem;
     }
+    #headoffice {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0rem;
+}
+    #branchoffice {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+}
 }
