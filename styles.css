@@ -121,18 +121,22 @@
 
 #contact-card-img {
     height: 20rem;
+    object-fit: cover;
 }
 
 #privacypolicy-card-img {
-    height: 15rem;
+    height: 20rem;
+    object-fit: cover;
 }
+
 .contact-card-overlay {
     /* background-image: linear-gradient(to bottom, #2125294f 50%, #ffffff5d); */
     background-color: #0000006f;
 }
+
 #card_img {
     height: 16rem;
-    
+
 }
 
 .form {
@@ -145,6 +149,7 @@
 
 #connect-worker-img {
     height: 15rem;
+    object-fit: cover;
 }
 
 .connectworker-title {
@@ -157,10 +162,12 @@
     position: relative;
     bottom: 1.5rem;
 }
+
 #headoffice {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
+
 #branchoffice {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -177,6 +184,7 @@
     margin-top: 1rem;
     text-align: center;
 }
+
 .trynow-btn:hover {
     background-color: #ffffff80;
     color: #000;
@@ -221,14 +229,30 @@
     text-align: justify;
 }
 
-@media (min-width: 992px) {
-    #card_img {
-        height: 100%;
-    }
+
+.policy-content {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
 }
 
 .list-group li {
     padding-bottom: 0.5rem;
+}
+
+.back-to-top {
+    position: sticky;
+    bottom: 2rem;
+}
+
+.backtotop-btn {
+    background-color:#ee3768;
+
+}
+@media (min-width: 992px) {
+    #card_img {
+        height: 100%;
+    }
 }
 
 @media (min-width: 720px) {
@@ -236,20 +260,32 @@
     .connect-worker {
         bottom: 8rem;
     }
+
     #connect-worker-img {
         height: 20rem;
     }
+
     .connectworker-title {
         font-size: 3rem;
     }
+
     #headoffice {
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
-    border-top-right-radius: 0rem;
-}
+        border-top-right-radius: 0rem;
+    }
+
     #branchoffice {
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 5rem;
+    }
+.back-to-top {
+    visibility: hidden;
 }
 }
