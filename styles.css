@@ -246,9 +246,10 @@
 }
 
 .backtotop-btn {
-    background-color:#ee3768;
+    background-color: #ee3768;
 
 }
+
 @media (min-width: 992px) {
     #card_img {
         height: 100%;
@@ -285,7 +286,8 @@
         position: sticky;
         top: 5rem;
     }
-.back-to-top {
-    visibility: hidden;
-}
+
+    .back-to-top {
+        visibility: hidden;
+    }
 }
